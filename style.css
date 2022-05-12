@@ -1,5 +1,6 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin top right bottom left */
     margin: 70px 70px 70px 70px;
     text-align: justify;
 }
@@ -100,14 +101,20 @@ p {
 
 /* media screen */
 @media screen and (max-width: 300px) {
+    body {
+        margin: 30px 50px 50px 50px;
+    }
     .wrapper {
         display: flex;
         flex-direction: column;
-        
     }
+
 }
 
 @media screen and (min-width: 300px) and (max-width: 560px) {
+    body {
+        margin: 30px 50px 50px 50px;
+    }
     .wrapper { 
         display: flex;
         flex-direction: column;
@@ -115,7 +122,9 @@ p {
 }
 
 @media screen and (min-width: 560px) and (max-width: 768px) {
-    
+    .eight {
+        grid-row: 2/6;
+    }
 }
 
 @media screen and (min-width: 768px) {
