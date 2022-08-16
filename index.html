@@ -5,61 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- icons  font awesome -->
     <script src="https://kit.fontawesome.com/f84e043cc2.js" crossorigin="anonymous"></script>
+    <!-- link image in header tab -->
+    <link rel="apple-touch-icon" type="image/png" sizes="16x16" href="./images/excellence.png" alt="Freepik icon puzzle hangman">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/excellence.png" alt="icon star">
     <title>Cheng Sophie CV</title>
 </head>
 <body>
-    <!-- <div class="wrapper"> -->
     <header>
-        <h1>Sophie Cheng</h1>
+        <h1 id="name">Sophie Cheng</h1>
     </header>
 
-    <section class="wrapper">
-            <!-- 
-                <div class="one">Sophie Cheng</div> -->
-
-            <div class="two">
+    <section class="wrapper flex-container">
+            <div class="one">
                 <!-- photo -->
                 <img class="image1" src="./images/image1.jpg">
                 </div>
 
-            <div class="eight">
+            <div class="two">
+                <!-- about me a few lines -->
+                <span class="word"><strong><i class="fa-solid fa-user-astronaut"></i> About me</strong></span>
+                <p>I am a Junior Web Developer in progress. <br>
+                I graduated in Translation in English-Chinese-French at the Free University of Brussels (ULB), and I initially wanted to become a language teacher abroad. I am passionate about languages, learning and teaching, and discovering new cultures. However, after my graduation, I was not sure of the path I chose and I discovered the world of IT, which is very fascinating, and I am now on a journey to become a web developer. I am hardworking, conscientious and I have a great sense of listening.
+                </p>
+            </div>
+
+            <div class="three">
                 <!-- contact icons -->
-                <p>Contact
+                <span class="word"><strong><i class="fa-regular fa-address-book"></i> Contact</strong></span>
+                <p>
                     <hr>
                     <div class="icons">
                     <a target="blank" href="https://www.linkedin.com/in/sophie-cheng03/"><i class="fa-brands fa-linkedin"></i></a> 
                     <a target="blank" href="https://github.com/ch-sophie"><i class="fa-brands fa-github"></i></a>
                     <a target="blank" href="https://ch-sophie.github.io/404-page"><i class="fa-brands fa-codepen"></i></a>
                     </div>
-                    <!-- <a href="https://fontawesome.com/search?m=free&s=solid"></a> -->
                     <br>
                     <br>
-                    <i class="fa-solid fa-square-phone"></i>   +321234567
+                    <i class="fa-solid fa-mobile-button"></i> +32488920630
                     <br>
                     <br>
-                    <i class="fa-solid fa-envelope"></i> lorem123@gmail.com
+                    <i class="fa-solid fa-envelope"></i> chengsophie25@gmail.com
                     <br> 
                     <br>
-                    <i class="fa-solid fa-house-chimney"></i>  lorem123 21
+                    <i class="fa-solid fa-house-chimney"></i> Tir aux pigeons 32, 1150 Brussels 
                     <br>
                     <br>
-                
-                </p>
-            </div>
-
-            <div class="three">
-                <!-- about me a few lines -->
-                <span class="word"><strong><i class="fa-solid fa-user-astronaut"></i> About me</strong></span>
-                <p>Junior Web Developer in progress - Recent graduate in Translation in English-Chinese-French. 
-                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste, debitis cum numquam aspernatur a minus. Ducimus explicabo in delectus laboriosam omnis esse amet! Natus cum laudantium vero itaque doloremque fugit, delectus deleniti omnis veniam at dolores debitis officia blanditiis dignissimos reiciendis temporibus obcaecati nihil exercitationem ipsum voluptatum maxime explicabo?
-        
                 </p>
             </div>
 
             <div class="four">
                 <!-- work experience -->
-                <span class="word"><strong><i class="fa-solid fa-paperclip"></i> Work experience</strong></span>
+                <span class="word"><strong><i class="fa-solid fa-business-time"></i></i> Work experience</strong></span>
                 <p>
                     <strong>Tutor in English</strong>
                     <br>Independent  <i>09/2017 - 01/2022</i>
@@ -67,16 +72,55 @@
                     <li>Work with students to improve academic performance.</li>
                     <li>Offer constructive feedback to students and students' parents.</li>
                     </ul>
-
-                    
-                    <br>Molestiae eaque aliquid facilis nisi doloribus, odit maiores officia et explicabo itaque debitis ratione minima at minus beatae vero exercitationem nemo a? Eum, fugiat corrupti omnis quam commodi explicabo delectus quis deserunt molestias ex eligendi, necessitatibus modi. 
+                </p>
+                <p>
+                    <strong>Sales associate</strong>
+                    <br>Godiva Chocolatier  <i>10/2021 - 01/2022</i>
+                    <ul>
+                        <li>Welcome and help customers in French, English, Chinese</li>
+                        <li>Be proactive and organized to assist customers and offer a great shopping experience.</li>
+                        <!-- <li></li> -->
+                    </ul>
+                </p>
+                <p>
+                    <strong>Tutor in primary school</strong>
+                    <br>ScholaULB  <i>09/2017 - 06/2021</i>
+                    <ul>
+                        <li>Promote educational equity</li>
+                        <li>Monitor groups of 5 to 10 children</li>
+                        <li>Assist students with homework and test preparation</li>
+                        <li>Help students become autonomous and responsible</li>
+                    </ul>
                 </p>
             </div>
-                <div class="six">
+
+            <div class="five">
+                <!-- language skills -->
+                <span class="word"><strong><i class="fa-solid fa-language"></i> Languages </strong></span>
+                <p> 
+                <span>French</span><br>
+                    <progress class="bar1" value="100" max="100"></progress>
+                <br><br><span>English</span><br>
+                    <progress class="bar2" value="90" max="100"></progress>
+                <br><br><span>Chinese</span><br>
+                    <progress class="bar3" value="75" max="100"></progress>
+                <br><br><span>Dutch</span><br>
+                    <progress class="bar4" value="50" max="100"></progress>
+                <br><br><span>Spanish</span><br>
+                    <progress class="bar5" value="35" max="100"></progress>
+                <br><br><span>Japanese</span><br>
+                    <progress class="bar6" value="15" max="100"></progress>
+                </p>
+            </div>
+
+            <div class="six">
                 <!-- education -->
                 <span class="word"><strong><i class="fa-solid fa-graduation-cap"></i> Education</strong></span>
                 <p>
-                    <strong>Level 5 TEFL Certificate (Teaching English as a foreign language)</strong> 
+                    <strong>Web developer</strong>
+                    <br>BeCode Brussels  <i>04/2022 - present</i>
+                    <br>
+                    <br><strong>Level 5 TEFL Certificate (Teaching English as a foreign language)</strong> 
                     <br>The TEFL Academy  <i>01/2021 - 06/2021</i>
                     <ul><li>Creating lessons and teaching materials</li>
                     <li>Teaching speaking, listening, reading and writing skills</li>
@@ -93,47 +137,32 @@
                     <br>
                     <br><strong>High school diploma</strong>
                     <br>College Saint-Michel  <i>09/2009 - 06/2015</i>
-
                 </p>
             </div>
 
-            <div class="five">
-                <!-- language skills -->
-                <span class="word"><strong>Languages</strong></span>  
-                <p>French</p>
-                    <progress class="bar1" value="100" max="100"></progress>
-                <p>English</p>
-                    <progress class="bar2" value="90" max="100"></progress>
-                <p>Chinese</p>
-                    <progress class="bar3" value="75" max="100"></progress>
-                <p>Dutch</p>
-                    <progress class="bar4" value="50" max="100"></progress>
-                <p>Spanish</p>
-                    <progress class="bar5" value="35" max="100"></progress>
-                <p>Japanese</p>
-                    <progress class="bar6" value="15" max="100"></progress>
-                <br>
-                <br>
-                <br>
-                <span class="word"><strong>Technical skills</strong></span>
+            <div class="seven">
+            <span class="word"><strong><i class="fa-solid fa-code"></i> Technical skills </strong></span>
                 <!-- technical skills -->
-                <p>HTML</p>
+                <p>
+                <span>HTML</span><br>
                     <progress class="bar3" value="75" max="100"></progress>
-                <p>CSS</p>
+                <br><br><span>CSS</span><br>
                     <progress class="bar3" value="75" max="100"></progress>
-                <p>Lorem1</p>
-                    <progress class="bar5" value="35" max="100"></progress>
-
+                <br><br><span>Javascript</span><br>
+                    <progress class="bar5" value="75" max="100"></progress>
+                <br><br><span>PHP</span>
+                </p>
             </div>
 
-            <div class="seven">
+            <div class="eight">
                 <!-- my hobbies -->
-                <span class="word"><strong><i class="fa-solid fa-cookie-bite"></i> Interests</strong></span>
-                <p>Sport - running and badminton
-                    <br> Baking cookies
-                    <br>Travelling
-                    <br>Puzzles
-                    <br>Music
+                <span class="word"><strong><i class="fa-solid fa-plane-up"></i> Interests</strong></span>
+                <p>
+                    <span>Travelling</span>
+                    <br><span>Cooking and baking cookies</span>
+                    <br><span>Sport - running (10 km) and badminton</span>
+                    <br><span>Puzzles</span>
+                    <br><span>Music (beginner in piano)</span>
                 </p>
             </div>
 
