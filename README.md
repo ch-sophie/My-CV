@@ -6,5 +6,5 @@ To do so, I used HTML and CSS, and implemented the grid system of CSS to visuall
 - use the **CSS** grid system   
 #### Link: https://ch-sophie.github.io/My-CV
 
-![Liza Miller gif](cv.webp)
+![Liza Miller gif](./images/cv.webp)
 
