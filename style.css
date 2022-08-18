@@ -55,6 +55,26 @@ p {
     font-size: larger;
     font-family: 'Amaranth', sans-serif;
 }
+.container {
+    width: 50%;
+    background-color: #ebeef0;
+  }
+.skills {
+    padding-top: 20px;
+}
+.language1 {width: 100%; background-color: #bf211e;}
+.language2 {width: 60%; background-color: #bf211e;}
+.language3 {width: 40%; background-color: #bf211e;}
+.language4 {width: 20%; background-color: #bf211e;}
+.language5 {width: 80%; background-color: #bf211e;}
+
+
+.checked{
+    color:#bf211e;
+}
+.technicalskills{
+    font-weight: 600;
+}
 
 /* media screen */
 @media screen and (max-width: 300px) {
