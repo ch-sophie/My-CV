@@ -75,6 +75,13 @@ p {
 .technicalskills{
     font-weight: 600;
 }
+.softskills{
+    border: 2px solid #4357ad; 
+    background-color: #4357ad;
+    color: #fff;
+    padding: 4px; 
+    border-radius: 4px; 
+}
 
 /* media screen */
 @media screen and (max-width: 300px) {
